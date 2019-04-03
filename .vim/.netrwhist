@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =7
+let g:netrw_dirhist_1='/data02/home/liutun/go/src/code.byted.org/liutun/historyClientKite/clients/toutiao'
+let g:netrw_dirhist_2='/data02/home/liutun/go/src/code.byted.org/liutun/historyKite/thrift_gen'
+let g:netrw_dirhist_3='/data02/home/liutun/.vim/bundle/Vundle.vim'
+let g:netrw_dirhist_4='/data02/home/liutun/.vim'
+let g:netrw_dirhist_5='/data02/home/liutun/.vim/bundle/vundle'
+let g:netrw_dirhist_6='/data00/home/liutun/go/src/git.byted.org/toutiao/ugc/post/publish/handlers'
+let g:netrw_dirhist_7='/data00/home/songfuxing/go/src/git.byted.org/toutiao/ugc/tcs'

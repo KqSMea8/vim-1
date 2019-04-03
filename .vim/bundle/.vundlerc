@@ -1,0 +1,42 @@
+set nocompatible              " be iMproved, required
+filetype off                  " required
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+
+" 状态栏
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'fatih/vim-go'
+Plugin 'scrooloose/nerdtree'
+Plugin 'Xuyuanp/nerdtree-git-plugin'
+
+" 配色
+Plugin 'dracula/vim'
+Plugin 'flazz/vim-colorschemes'
+Plugin 'solarnz/thrift.vim'
+
+" 语法检查
+Plugin 'scrooloose/syntastic'
+
+" 快速注释
+Bundle 'scrooloose/nerdcommenter'
+
+" vim插件
+Bundle 'tpope/vim-fugitive'
+
+
+" 处理vim和tmux的C-hjkl冲突问题
+Plugin 'christoomey/vim-tmux-navigator'
+
+Plugin 'dgryski/vim-godef'
+
+call vundle#end()            " required
+filetype plugin indent on    " required
+
+" nerdtree
+map <C-n> :NERDTreeToggle<CR>
